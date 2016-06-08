@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgb(225, 235, 246) !important;
+  margin: 55px;
+  font-family: "Roboto"
+}
+
+nav {
+  background-color: rgb(248, 249, 250);
+  height: 80px;
+}
+
+nav .logo {
+  display: block;
+  width: 100px;
+  height: 80px;
+  background-color: rgb(114, 185, 255);
+  font-size: 2.6em;
+  text-align: center;
+  color: white;
+  line-height: 80px;
+  font-weight: 700;
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+nav ul.nav-left {
+  float: left;
+}
+
+nav ul.nav-right {
+  float: right;
+}
+
+nav ul.nav-left li {
+  float: left;
+  margin-left: 25px;
+  line-height: 80px;
+}
+
+nav ul.nav-right li {
+  float: right;
+  margin-right: 25px;
+  line-height: 80px;
+}
+
+nav ul.nav-right li input {
+  background: none;
+  outline: none;
+  width: 230px;
+  height: 35px;
+  border: 1px solid rgb(207, 207, 209);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+nav ul.nav-right li i.search-icon {
+  margin-left: -25px;
+  font-size: 1em;
+}
+
+nav ul.nav-right li input::-webkit-input-placeholder {
+  color: rgb(220, 220, 220);
+  letter-spacing: 1px;
+}
+
+nav ul.nav-right li i {
+  line-height: 80px;
+  color: #bbb;
+}
+
+nav ul.nav-right li img {
+  width: 40px;
+  border-radius: 100px;
+  margin-top: 20px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 0.9em;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: rgb(127, 175, 228);
+  border-bottom: 1px solid rgb(127, 175, 228);
+  padding-bottom: 5px;
+}
+
+section#bio {
+  padding: 50px 0;
+  height: 380px;
+  background-color: white;
+}
+
+section#bio .left-side {
+  float: left;
+  margin-left: 20%;
+}
+
+section#bio .left-side img {
+  width: 150px;
+  border-radius: 100px;
+  margin-bottom: 5px;
+  margin-left: 17%;
+}
+
+section#bio .left-side h1 {
+  color: rgb(75, 75, 75);
+  font-weight: 500;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+section#bio .left-side p.subtext {
+  color: rgb(182, 182, 182);
+  font-size: 0.6em;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+section#bio .left-side p.info {
+  color: rgb(114, 185, 255);
+  font-weight: 500;
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+section#bio .left-side small {
+  color: rgb(182, 182, 182);
+  text-transform: uppercase;
+  font-size: 0.6em;
+  letter-spacing: 1px;
+}
